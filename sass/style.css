@@ -6,25 +6,37 @@
 .banner {
   background-image: url(../../img/photo_2023-06-03_19-02-29.jpg);
   width: cover;
-  height: 100px;
+  height: 85px;
 }
 .banner .img-container .img-logo {
   width: 300px;
 }
 .banner .nombre-logo {
-  width: 300px;
+  width: 240px;
 }
 
 .navbar-style {
   background-image: linear-gradient(to right, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
 }
 
-@media screen and (min-width: 575px) {
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-estrellas {
+  background-color: linear-gradient(to bottom, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
+}
+
+@media screen and (min-width: 500px) {
   .banner {
     height: 120px;
   }
   .banner .img-container .img-logo {
-    width: 350px;
+    width: 450px;
   }
   .banner .nombre-logo {
     width: 350px;
@@ -32,18 +44,18 @@
 }
 @media screen and (min-width: 575px) {
   .banner {
-    height: 150px;
+    height: 125px;
   }
   .banner .img-container .img-logo {
     width: 500px;
   }
   .banner .nombre-logo {
-    width: 500px;
+    width: 400px;
   }
 }
 @media screen and (min-width: 992px) {
   .banner {
-    height: 175px;
+    height: 145px;
     transition: transform 0.3s ease-in-out;
   }
   .banner .img-container .img-logo {
@@ -51,5 +63,27 @@
   }
   .banner .nombre-logo {
     width: 600px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner {
+    height: 180px;
+  }
+  .banner .img-container .img-logo {
+    width: 750px;
+  }
+  .banner .nombre-logo {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1720px) {
+  .banner {
+    height: 300px;
+  }
+  .banner .img-container .img-logo {
+    width: 1200px;
+  }
+  .banner .nombre-logo {
+    width: 1200px;
   }
 }/*# sourceMappingURL=style.css.map */

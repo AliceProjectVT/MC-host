@@ -1,11 +1,11 @@
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 500px) {
     .banner {
        
         height: 120px;
     
         .img-container {
             .img-logo {
-                width: 350px;
+                width: 450px;
 
             }
              
@@ -21,7 +21,7 @@
 
     .banner {
        
-        height: 150px;
+        height: 125px;
     
         .img-container {
             .img-logo {
@@ -33,7 +33,7 @@
     
         .nombre-logo {
             
-            width: 500px;
+            width: 400px;
         }
     }  
 
@@ -44,7 +44,7 @@
 
     .banner {
        
-        height: 175px;
+        height: 145px;
         transition: transform 0.3s ease-in-out;
     
         .img-container {
@@ -63,3 +63,53 @@
 
 
 }
+
+
+@media screen and (min-width: 1200px ){
+
+    .banner {
+       
+        height: 180px;
+        
+        .img-container {
+            .img-logo {
+                width: 750px;
+
+            }
+             
+        }
+    
+        .nombre-logo {
+            
+            width: 700px;
+        }
+    }  
+
+
+}
+
+
+@media screen and (min-width: 1720px ){
+
+    .banner {
+       
+        height: 300px;
+        
+        .img-container {
+            .img-logo {
+                width: 1200px;
+
+            }
+             
+        }
+    
+        .nombre-logo {
+            
+            width: 1200px;
+        }
+    }  
+
+
+}
+
+//Mover Logo a la esquina izquiera//
