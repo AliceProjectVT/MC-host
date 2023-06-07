@@ -1,0 +1,65 @@
+@media screen and (min-width: 575px) {
+    .banner {
+       
+        height: 120px;
+    
+        .img-container {
+            .img-logo {
+                width: 350px;
+
+            }
+             
+        }
+    
+        .nombre-logo {
+            width: 350px;
+        }
+    }  
+}
+
+@media screen and (min-width: 575px){
+
+    .banner {
+       
+        height: 150px;
+    
+        .img-container {
+            .img-logo {
+                width: 500px;
+
+            }
+             
+        }
+    
+        .nombre-logo {
+            
+            width: 500px;
+        }
+    }  
+
+
+}
+
+@media screen and (min-width: 992px ){
+
+    .banner {
+       
+        height: 175px;
+        transition: transform 0.3s ease-in-out;
+    
+        .img-container {
+            .img-logo {
+                width: 600px;
+
+            }
+             
+        }
+    
+        .nombre-logo {
+            
+            width: 600px;
+        }
+    }  
+
+
+}
