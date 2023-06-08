@@ -2,18 +2,47 @@
     background-image: url(../../img/photo_2023-06-03_19-02-29.jpg);
     width: cover;
     height: 85px;
+    
 
     .img-container {
-        .img-logo {
-            width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        
+
+
+        .logo-contenedor{
+            padding: 10px;
+            grid-column: 1;
+            width: 100px;
+
+            .img-logo {
+
+                
+                width: 300px;
+                
+            }
+
+
         }
+        
+      .nombre-container {
+        
+        
+        grid-column: 2;
+        margin-top:25px ;
+        margin-right: 30px;
+
+       .nombre-logo{
+
+         width: 250px;
+         
+        
+       } 
+    }
 
         
     }
 
-    .nombre-logo {
-        width: 240px;
-    }
 }
 
 .navbar-style {
