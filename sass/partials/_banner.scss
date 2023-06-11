@@ -1,64 +1,53 @@
 .banner {
-    background-image: url(../../img/photo_2023-06-03_19-02-29.jpg);
-    width: cover;
-    height: 85px;
-    
+  background-image: url(../../img/photo_2023-06-03_19-02-29.jpg);
+  height: 85px;
 
-    .img-container {
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        
+  .img-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 
+    .logo-contenedor {
+      padding: 10px;
+      grid-column: 1;
+      width: 100px;
 
-        .logo-contenedor{
-            padding: 10px;
-            grid-column: 1;
-            width: 100px;
-
-            .img-logo {
-
-                
-                width: 300px;
-                
-            }
-
-
-        }
-        
-      .nombre-container {
-        
-        
-        grid-column: 2;
-        margin-top:25px ;
-        margin-right: 30px;
-
-       .nombre-logo{
-
-         width: 250px;
-         
-        
-       } 
+      .img-logo {
+        width: 300px;
+      }
     }
 
-        
+    .nombre-container {
+      grid-column: 2;
+      margin-top: 25px;
+      margin-right: 30px;
+
+      .nombre-logo {
+        width: 250px;
+      }
     }
 
+    .carrito-container {
+      display: none;
+
+      .img-carrito {
+        width: 320px;
+      }
+    }
+  }
 }
 
 .navbar-style {
-    background-image: linear-gradient(to right, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
+  background-image: linear-gradient(to right, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
 }
-.main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .fondo-estrellas {
-    background-color: linear-gradient(to bottom, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
-  }
-    
 
-  
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-estrellas {
+  background-color: linear-gradient(to bottom, #9205f0, #8060E5, #7206D9, #6107CE, #5108C3);
+}
